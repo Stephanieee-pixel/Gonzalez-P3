@@ -33,19 +33,14 @@
 	    </div>
 
 
-<ul>
-	<li v-for="movies in fetch this.movies">
-		{{ movies }}
-	</li>
-</ul>
 	    <div class="main">
 
-	      <div class="container">
+	      <div class="container" >
 
-	        <div class="col-md-6">
+	        <div class="col-md-6" v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 
-						<img class="poster"  />{{ movies[0].posters[0] }}
+						<img class="poster"  />{{ movies[index].posters[0] }}
 						<div class="imageInfo"> {{ movies[0].posterIndex }}</div>
 
 						<p class="title">{{ movies[0].title }} ({{ movies[0].country }})</p>
