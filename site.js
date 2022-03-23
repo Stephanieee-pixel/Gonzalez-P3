@@ -36,6 +36,7 @@ const vue_app = Vue.createApp({
             title: "IMDB + Stephanie's Top 8 Movies",
             owner: "Stephanie Gonzalez",
             github: "https://www.github.com/Stephanieee-pixel/Gonzalez-P3"
+
       }
     },
       methods: {

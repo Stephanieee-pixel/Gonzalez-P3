@@ -33,7 +33,11 @@
 	    </div>
 
 
-
+<ul>
+	<li v-for="this.movies">
+		{{ movies }}
+	</li>
+</ul>
 	    <div class="main">
 
 	      <div class="container">
@@ -48,7 +52,7 @@
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i>{{ movies[0].iscore }} </p>
 						<p class="runtime">Runtime: {{ movies[0].runtime }} </p>
 						<p class="released">Released: {{ movies[0].released}} | Rated:{{ movies[0].rating}} </p>
-						<p class="websites">Websites: <a>
+						<p :class="websites">Websites: <a>
 							{{ movies[0].imdb }}</a> | <a> {{ movies[0].website }}</a></p>
 
 			            <div class="social">
