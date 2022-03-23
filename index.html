@@ -34,7 +34,7 @@
 
 
 <ul>
-	<li v-for="this.movies">
+	<li v-for="movies in fetch this.movies">
 		{{ movies }}
 	</li>
 </ul>
@@ -46,7 +46,7 @@
 	            <div class="thumbnail">
 
 						<img class="poster"  />{{ movies[0].posters[0] }}
-						<div class="imageInfo"> {{ movies[0].posterIndex }}</div>
+						<div class="imageInfo"> {{ movies[0].posterIndex }}</div> 
 
 						<p class="title">{{ movies[0].title }} ({{ movies[0].country }})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i>{{ movies[0].iscore }} </p>
@@ -67,7 +67,7 @@
 
 	    <div class="footer">
 	      <div class="container">
-			<a id="github" class="btn btn-lg btn-warning">
+			<a id="github" class="btn btn-lg btn-warning" v-bind:href="github" target="_blank">
 				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{ owner }} {{ github}}
 	  		</a>
 	      </div>
