@@ -43,9 +43,9 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray){
               return{
-                
+
               }
-            }
+            },
             likes(){
               handleEvent(){
                 return{
@@ -53,7 +53,16 @@ const vue_app = Vue.createApp({
                 }
               }
 
-            }
+            },
+            dislikes(){
+              handleEvent(){
+
+              }
+            },
+            posterClick(index){
+
+            },
+
       }
 })
 
