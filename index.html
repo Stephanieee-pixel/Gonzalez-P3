@@ -51,8 +51,9 @@
 							{{ movies[0].imdb }}</a> | <a v-bind:href="website"> {{ movies[0].website }}</a></p>
 
 			            <div class="social">
-			              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{ movies[0].likes }}</p>
-			              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i>{{ movies[0].dislikes }} </p>
+										<button v-on: click="likes++">	<p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{ movies[0].likes }}</p></button>
+										<button v-on:click="dislikes++"> <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i>{{ movies[0].dislikes }} </p>
+										</button>
 			            </div>
 	            </div>
 	        </div>
