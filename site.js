@@ -81,8 +81,10 @@ switch(mm) {
     case '12':
         month = 'December';
         break;
-}
-              return month;
+},
+var date=json.released:[mm,dd,yyyy];
+
+              return date;
             },
             posterClick(index){
 
