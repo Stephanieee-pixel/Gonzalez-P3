@@ -82,7 +82,7 @@ switch(mm) {
         month = 'December';
         break;
 },
-var date=json.released:[mm,dd,yyyy];
+var date= dateArray;
 
               return date;
             },
