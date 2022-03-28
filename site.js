@@ -81,7 +81,7 @@ switch(mm) {
     case '12':
         month = 'December';
         break;
-},
+}
 var date= dateArray;
 
               return date;
