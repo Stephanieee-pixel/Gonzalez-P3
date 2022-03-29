@@ -43,9 +43,8 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray){
               var month = '';
-              var months = ['January','February','March','April','May','June','July','August','September','October','November','December']
 
-switch(mm) {
+switch(dateArray[1]) {
     case '1':
         month = 'January';
         break;
@@ -83,17 +82,18 @@ switch(mm) {
         month = 'December';
         break;
 }
-var date= month+dateArray[1]+dateArray[2];
+var date= month+ " "+dateArray[1]+", "+dateArray[2];
 
               return date;
             },
             posterClick(index){
-            return this.index.filter(n => n % 1 === 0)
+            return this.index++ !== 2
+            //return this.index.filter(n => n % 1 === 0)
 
             },
             timeText(minutes) {
               Math.trunc(minutes)
-              return String(this.)
+              // return String(this.)
 
             }
 
