@@ -92,7 +92,7 @@ var date= month+ " "+dateArray[1]+", "+dateArray[2];
 
             },
             timeText(minutes) {
-              Math.trunc(minutes)
+              Math.trunc(minutes)+""
               // return String(this.)
 
             }
