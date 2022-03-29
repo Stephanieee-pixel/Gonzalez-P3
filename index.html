@@ -46,7 +46,7 @@
 						<p class="title">{{ movies[index].title }} ({{ movies[index].country }})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{ movies[index].iscore }} </p>
 						<p class="runtime">Runtime: {{ movies[index].runtime }}</p>
-						<p class="released" v-onclick="getMonthText(movies[index].released)">Released: {{ movies[index].released }} | Rated: {{ movies[index].rating }}</p>
+						<p class="released" v-on:click="getMonthText(dateArray).movies[index].released">Released: {{ movies[index].released }} | Rated: {{ movies[index].rating }}</p>
 						<p class="websites">Websites: <a v-bind:href="movies[index].imdb">IMDB</a> | <a v-bind:href="movies[index].website">Official</a></p>
 
 					<div class="social">
