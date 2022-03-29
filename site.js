@@ -88,9 +88,12 @@ var date= month+dateArray[1]+dateArray[2];
               return date;
             },
             posterClick(index){
+            return this.index.filter(n => n % 1 === 0)
 
             },
             timeText(minutes) {
+              Math.trunc(minutes)
+              return String(this.)
 
             }
 
