@@ -87,12 +87,16 @@ var date= month+ " "+dateArray[1]+", "+dateArray[2];
               return date;
             },
             posterClick(index){
-            return this.index++ !== 2
+            return this.index++ !==
             //return this.index.filter(n => n % 1 === 0)
 
             },
             timeText(minutes) {
-              Math.trunc(minutes)+""
+              var rhours = Math.trunc(hours);
+              var minutes = (hours - rhours) * 60;
+              var rminutes = Math.trunc(minutes);
+              return rhours + " h " + rminutes + " m";
+
               // return String(this.)
 
             }
