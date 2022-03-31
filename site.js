@@ -87,7 +87,10 @@ switch(dateArray[1]) {
       return date;
     },
             posterClick(index){
+            handleEvent(){
             return this.movies[index].posterindex++;
+            }
+
             //return this.index.filter(n => n % 1 === 0)
 
             },
