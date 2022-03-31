@@ -81,13 +81,13 @@ switch(dateArray[1]) {
     case '12':
         month = 'December';
         break;
-}
-var date= month+ " "+dateArray[1]+", "+dateArray[2];
+      }
+      var date= month+ " "+dateArray[1]+", "+dateArray[2];
 
-              return date;
-            },
+      return date;
+    },
             posterClick(index){
-            return this.index++ !==
+            return this.movies[index].posterindex++;
             //return this.index.filter(n => n % 1 === 0)
 
             },
