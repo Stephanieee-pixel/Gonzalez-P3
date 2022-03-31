@@ -91,6 +91,7 @@ var date= month+ " "+dateArray[1]+", "+dateArray[2];
             //return this.index.filter(n => n % 1 === 0)
 
             },
+
             timeText(minutes) {
               var rhours = Math.trunc(hours);
               var minutes = (hours - rhours) * 60;
@@ -100,7 +101,6 @@ var date= month+ " "+dateArray[1]+", "+dateArray[2];
               // return String(this.)
 
             }
-
 
       }
 })
