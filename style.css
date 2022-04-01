@@ -81,6 +81,7 @@ body {
 
 /* This contains your like and dislike buttons */
 .social {
+``  border-radius: 30px 35px;
     text-align: right;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -93,8 +94,9 @@ body {
 /* This shapes your like and dislike buttons */
 
 .dislikes {
-    cursor: pointer;
     background-color: #f65a5b;
+    cursor: pointer;
+    color:#ffffff;
     display: inline-block;
     font-size: 15px;
     line-height: 40px;
@@ -108,8 +110,9 @@ body {
     transition: 500ms;
 }
 .likes{
-  cursor: pointer;
   background-color: #008700;
+  cursor: pointer;
+  color:#ffffff;
   display: inline-block;
   font-size: 15px;
   line-height: 40px;
