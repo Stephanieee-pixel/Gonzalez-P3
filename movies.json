@@ -78,7 +78,7 @@
             "country": "USA",
             "posters": ["img/mara1.jpg", "img/mara2.jpg"],
             "imdb": "https://www.imdb.com/title/tt1773753/",
-            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "website": "https://www.amazon.com/Mara-Olga-Kurylenko/dp/B07H2M4LP6",
             "likes": 822,
             "dislikes": 138,
             "posterindex": 0
@@ -92,7 +92,7 @@
             "country": "USA",
             "posters": ["img/Shrek21.png", "img/Shrek2.jpg"],
             "imdb": "https://www.imdb.com/title/tt0298148/",
-            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "website": "https://www.dreamworks.com/movies/shrek-2",
             "likes": 935,
             "dislikes": 127,
             "posterindex": 0
@@ -106,7 +106,7 @@
             "country": "USA",
             "posters": ["img/Coco1.jpg", "img/Coco2.jpg"],
             "imdb": "https://www.imdb.com/title/tt2380307/",
-            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "website": "https://movies.disney.com/coco",
             "likes": 935,
             "dislikes": 127,
             "posterindex": 0
