@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
-      }
+      },
+      {
+            "title": "Mara",
+            "iscore": 5.1,
+            "rating": "R",
+            "runtime": 98,
+            "released": [2018, 8, 22],
+            "country": "USA",
+            "posters": ["img/mara1.jpg", "img/mara2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1773753/",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 822,
+            "dislikes": 138,
+            "posterindex": 0
+      },
+      {
+            "title": "Shrek 2",
+            "iscore": 7.3,
+            "rating": "PG",
+            "runtime": 93,
+            "released": [2004, 5, 19],
+            "country": "USA",
+            "posters": ["img/Shrek21.png", "img/Shrek2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0298148/",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 935,
+            "dislikes": 127,
+            "posterindex": 0
+      },
+      {
+            "title": "Coco",
+            "iscore": 8.4,
+            "rating": "PG",
+            "runtime": 105,
+            "released": [2017, 11, 22],
+            "country": "USA",
+            "posters": ["img/Coco1.jpg", "img/Coco2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2380307/",
+            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
+            "likes": 935,
+            "dislikes": 127,
+            "posterindex": 0
+      },
 ]
